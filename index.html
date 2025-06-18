@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Continegra IT & Multimedia Business Africa</title>
+    <meta name="description" content="Professional IT and Multimedia services across Africa. Cybersecurity, Development, Hardware Support, and Creative Design solutions for businesses.">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top glass-nav">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#home">
+                <img src="assets/logo_1749789696115.png" alt="Continegra Logo" height="40" class="me-2">
+                <span class="fw-bold">Continegra</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-outline-light ms-2" id="themeToggle">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section position-relative min-vh-100 d-flex align-items-center cyber-grid scan-lines">
+        <div class="container py-5">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="display-3 fw-bold text-white mb-4">
+                            Professional
+                            <span class="text-gradient d-block" id="typewriter">IT & Multimedia Solutions</span>
+                        </h1>
+                        <h2 class="h4 text-white-50 mb-4">
+                            Empowering African Businesses with Cutting-Edge Technology
+                        </h2>
+                        <p class="lead text-white-75 mb-5">
+                            From cybersecurity and development to multimedia design and hardware support - 
+                            your one-stop solution for all digital transformation needs across Africa.
+                        </p>
+                        
+                        <div class="d-flex flex-wrap gap-3 mb-5">
+                            <a href="#services" class="btn btn-primary btn-lg holographic-shimmer">
+                                Explore Services
+                            </a>
+                            <a href="#contact" class="btn btn-outline-light btn-lg">
+                                Get Started
+                            </a>
+                        </div>
+
+                        <!-- Stats -->
+                        <div class="row g-4 text-center">
+                            <div class="col-6 col-md-3">
+                                <div class="stat-item position-relative">
+                                    <div class="stat-circle mx-auto mb-3">
+                                        <img src="assets/images (1)_1749791663481.jpg" alt="24/7 Support" class="stat-bg-image">
+                                        <div class="stat-overlay from-blue-500 to-cyan-500"></div>
+                                        <i class="fas fa-clock stat-icon"></i>
+                                        <div class="stat-border"></div>
+                                    </div>
+                                    <div class="stat-number text-white fw-bold">24/7</div>
+                                    <div class="stat-label text-white-50 small">Online Support</div>
+                                    <div class="floating-particles"></div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="stat-item position-relative">
+                                    <div class="stat-circle mx-auto mb-3">
+                                        <img src="assets/software-developer_1749791663494.webp" alt="4+ Services" class="stat-bg-image">
+                                        <div class="stat-overlay from-green-500 to-emerald-500"></div>
+                                        <i class="fas fa-cogs stat-icon"></i>
+                                        <div class="stat-border"></div>
+                                    </div>
+                                    <div class="stat-number text-white fw-bold">4+</div>
+                                    <div class="stat-label text-white-50 small">Service Areas</div>
+                                    <div class="floating-particles"></div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="stat-item position-relative">
+                                    <div class="stat-circle mx-auto mb-3">
+                                        <img src="assets/bs-computer-science-software-dev-1536x1117_1749791663498.webp" alt="100% Quality" class="stat-bg-image">
+                                        <div class="stat-overlay from-purple-500 to-pink-500"></div>
+                                        <i class="fas fa-shield-alt stat-icon"></i>
+                                        <div class="stat-border"></div>
+                                    </div>
+                                    <div class="stat-number text-white fw-bold">100%</div>
+                                    <div class="stat-label text-white-50 small">Quality Assured</div>
+                                    <div class="floating-particles"></div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="stat-item position-relative">
+                                    <div class="stat-circle mx-auto mb-3">
+                                        <img src="assets/download_1749791663502.jpg" alt="Remote Service" class="stat-bg-image">
+                                        <div class="stat-overlay from-orange-500 to-red-500"></div>
+                                        <i class="fas fa-globe stat-icon"></i>
+                                        <div class="stat-border"></div>
+                                    </div>
+                                    <div class="stat-number text-white fw-bold">Remote</div>
+                                    <div class="stat-label text-white-50 small">& On-site</div>
+                                    <div class="floating-particles"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="hero-image position-relative">
+                        <div class="glass-card p-0 overflow-hidden rounded-4 shadow-lg">
+                            <img src="assets/images_1749791663500.jpg" alt="Professional IT workspace setup" class="img-fluid w-100">
+                            <div class="position-absolute top-0 start-0 w-100 h-100 bg-gradient-overlay"></div>
+                        </div>
+                        
+                        <!-- Floating Elements -->
+                        <div class="floating-element floating-element-1 glass-card p-3">
+                            <i class="fas fa-code text-primary"></i>
+                        </div>
+                        <div class="floating-element floating-element-2 glass-card p-3">
+                            <i class="fas fa-shield-alt text-success"></i>
+                        </div>
+                        <div class="floating-element floating-element-3 glass-card p-3">
+                            <i class="fas fa-palette text-warning"></i>
+                        </div>
+                        
+                        <!-- Status Card -->
+                        <div class="position-absolute bottom-0 start-0 translate-middle-x glass-card p-3">
+                            <div class="d-flex align-items-center">
+                                <div class="status-indicator me-3">
+                                    <div class="status-dot bg-success"></div>
+                                    <div class="status-pulse bg-success"></div>
+                                </div>
+                                <div>
+                                    <div class="fw-semibold text-white small">Online Now</div>
+                                    <div class="text-white-50 small">Ready to help 24/7</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Services Badge -->
+                        <div class="position-absolute top-0 end-0 translate-middle glass-card p-3 bg-primary">
+                            <div class="text-center text-white">
+                                <div class="h5 fw-bold mb-0">4+</div>
+                                <div class="small">Services</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5 bg-light">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold mb-4">Professional Services</h2>
+                <p class="lead text-muted mx-auto" style="max-width: 600px;">
+                    Comprehensive IT and multimedia solutions tailored to your specific needs and requirements.
+                </p>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Multimedia Design -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card glass-card h-100 p-4 holographic-shimmer">
+                        <div class="service-icon mb-4">
+                            <img src="assets/icons8-it-100_1749792426721.png" alt="Multimedia Design" class="service-icon-img">
+                        </div>
+                        <h3 class="h5 fw-semibold mb-3">Multimedia Design</h3>
+                        <p class="text-muted mb-4">Bring Your Ideas to Life with Creative Multimedia Solutions</p>
+                        <ul class="service-features list-unstyled small text-muted mb-4">
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Logo & Brand Design</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>2D/3D Animations</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Video Editing</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Voice Editing & Sound Cleanup</li>
+                        </ul>
+                        <button class="btn btn-outline-primary w-100 holographic-shimmer">Learn More</button>
+                    </div>
+                </div>
+                
+                <!-- Cybersecurity -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card glass-card h-100 p-4 holographic-shimmer">
+                        <div class="service-icon mb-4">
+                            <img src="assets/icons8-cyber-security-48_1749792426719.png" alt="Cybersecurity Services" class="service-icon-img">
+                        </div>
+                        <h3 class="h5 fw-semibold mb-3">Cybersecurity Services</h3>
+                        <p class="text-muted mb-4">Protect Your Digital Assets — I Secure What Matters</p>
+                        <ul class="service-features list-unstyled small text-muted mb-4">
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Malware Detection & Removal</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Penetration Testing</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Ethical Hacking</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Network & Firewall Setup</li>
+                        </ul>
+                        <button class="btn btn-outline-primary w-100 holographic-shimmer">Learn More</button>
+                    </div>
+                </div>
+                
+                <!-- Development -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card glass-card h-100 p-4 holographic-shimmer">
+                        <div class="service-icon mb-4">
+                            <img src="assets/icons8-it-64_1749792426720.png" alt="Programming & Development" class="service-icon-img">
+                        </div>
+                        <h3 class="h5 fw-semibold mb-3">Programming & Development</h3>
+                        <p class="text-muted mb-4">Smart Applications, Websites & Systems Tailored for You</p>
+                        <ul class="service-features list-unstyled small text-muted mb-4">
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Custom Website Development</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Android App Development</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>POS System Development</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Web Apps with Dashboards</li>
+                        </ul>
+                        <button class="btn btn-outline-primary w-100 holographic-shimmer">Learn More</button>
+                    </div>
+                </div>
+                
+                <!-- Hardware Support -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card glass-card h-100 p-4 holographic-shimmer">
+                        <div class="service-icon mb-4">
+                            <img src="assets/icons8-diy-64_1749792426717.png" alt="Hardware Support" class="service-icon-img">
+                        </div>
+                        <h3 class="h5 fw-semibold mb-3">Hardware Support</h3>
+                        <p class="text-muted mb-4">Reliable PC, Laptop & Network Support Anytime You Need It</p>
+                        <ul class="service-features list-unstyled small text-muted mb-4">
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Computer Repair & Troubleshooting</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Laptop Screen, RAM, SSD Upgrades</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Virus Removal & OS Reinstallation</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Network Installation</li>
+                        </ul>
+                        <button class="btn btn-outline-primary w-100 holographic-shimmer">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Section -->
+    <section class="py-5 bg-white">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold mb-4">Why Choose My Services?</h2>
+                <p class="lead text-muted mx-auto" style="max-width: 600px;">
+                    One expert, multiple specializations. Get all your IT and multimedia needs handled with consistent quality and reliable support.
+                </p>
+            </div>
+            
+            <div class="row g-4">
+                <!-- One-Stop Solution -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="benefit-card glass-card h-100 p-4 holographic position-relative overflow-hidden">
+                        <div class="benefit-bg-pattern"></div>
+                        <div class="position-relative">
+                            <div class="benefit-icon mb-4">
+                                <img src="assets/icons8-it-100_1749792426721.png" alt="One-Stop Solution" class="benefit-icon-img">
+                            </div>
+                            <h3 class="h5 fw-semibold mb-3">One-Stop Solution</h3>
+                            <p class="text-muted">Complete coverage for Multimedia, Security, Development & Hardware needs under one roof.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 24/7 Availability -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="benefit-card glass-card h-100 p-4 holographic position-relative overflow-hidden">
+                        <div class="benefit-bg-pattern"></div>
+                        <div class="position-relative">
+                            <div class="benefit-icon mb-4">
+                                <img src="assets/icons8-technical-support-66_1749792426714.png" alt="24/7 Availability" class="benefit-icon-img">
+                            </div>
+                            <h3 class="h5 fw-semibold mb-3">24/7 Availability</h3>
+                            <p class="text-muted">Round-the-clock online support ensuring your business never stops running.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Affordable Rates -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="benefit-card glass-card h-100 p-4 holographic position-relative overflow-hidden">
+                        <div class="benefit-bg-pattern"></div>
+                        <div class="position-relative">
+                            <div class="benefit-icon mb-4">
+                                <img src="assets/icons8-it-64_1749792426720.png" alt="Affordable Rates" class="benefit-icon-img">
+                            </div>
+                            <h3 class="h5 fw-semibold mb-3">Affordable Rates</h3>
+                            <p class="text-muted">Quality delivery at competitive prices without compromising on professional standards.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Remote & On-site -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="benefit-card glass-card h-100 p-4 holographic position-relative overflow-hidden">
+                        <div class="benefit-bg-pattern"></div>
+                        <div class="position-relative">
+                            <div class="benefit-icon mb-4">
+                                <img src="assets/icons8-internet-60_1749792426715.png" alt="Remote & On-site" class="benefit-icon-img">
+                            </div>
+                            <h3 class="h5 fw-semibold mb-3">Remote & On-site</h3>
+                            <p class="text-muted">Flexible service delivery options to meet your specific needs and preferences.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Trusted Experience -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="benefit-card glass-card h-100 p-4 holographic position-relative overflow-hidden">
+                        <div class="benefit-bg-pattern"></div>
+                        <div class="position-relative">
+                            <div class="benefit-icon mb-4">
+                                <img src="assets/icons8-diy-64_1749792426717.png" alt="Trusted Experience" class="benefit-icon-img">
+                            </div>
+                            <h3 class="h5 fw-semibold mb-3">Trusted Experience</h3>
+                            <p class="text-muted">Proven track record with businesses, creators, and individuals across all service areas.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Quality Assurance -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="benefit-card glass-card h-100 p-4 holographic position-relative overflow-hidden">
+                        <div class="benefit-bg-pattern"></div>
+                        <div class="position-relative">
+                            <div class="benefit-icon mb-4">
+                                <img src="assets/icons8-cyber-security-48_1749792426719.png" alt="Quality Assurance" class="benefit-icon-img">
+                            </div>
+                            <h3 class="h5 fw-semibold mb-3">Quality Assurance</h3>
+                            <p class="text-muted">Every project undergoes thorough testing and quality checks before delivery.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5 bg-light">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold mb-4">Portfolio</h2>
+                <p class="lead text-muted">Showcasing quality work across all service areas</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-item glass-card overflow-hidden rounded-4">
+                        <div class="portfolio-image">
+                            <img src="assets/images (1)_1749791663481.jpg" alt="Project 1" class="img-fluid w-100">
+                            <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                                <div class="text-center text-white">
+                                    <h5>Multimedia Project</h5>
+                                    <p class="mb-0">Brand Design & Animation</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-item glass-card overflow-hidden rounded-4">
+                        <div class="portfolio-image">
+                            <img src="assets/software-developer_1749791663494.webp" alt="Project 2" class="img-fluid w-100">
+                            <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                                <div class="text-center text-white">
+                                    <h5>Development Project</h5>
+                                    <p class="mb-0">Web Application</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-item glass-card overflow-hidden rounded-4">
+                        <div class="portfolio-image">
+                            <img src="assets/bs-computer-science-software-dev-1536x1117_1749791663498.webp" alt="Project 3" class="img-fluid w-100">
+                            <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                                <div class="text-center text-white">
+                                    <h5>Cybersecurity Project</h5>
+                                    <p class="mb-0">Network Security Setup</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark text-white">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <h2 class="display-4 fw-bold mb-4">Get In Touch</h2>
+                    <p class="lead mb-5">Ready to transform your business with professional IT and multimedia solutions? Let's discuss your project.</p>
+                    
+                    <div class="contact-info">
+                        <div class="contact-item d-flex align-items-center mb-4">
+                            <div class="contact-icon me-4">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h5 class="mb-1">Email</h5>
+                                <p class="mb-0 text-white-50">molisentshihlele@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item d-flex align-items-center mb-4">
+                            <div class="contact-icon me-4">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h5 class="mb-1">Phone</h5>
+                                <p class="mb-0 text-white-50">+26650805067</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item d-flex align-items-center mb-4">
+                            <div class="contact-icon me-4">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div>
+                                <h5 class="mb-1">Availability</h5>
+                                <p class="mb-0 text-white-50">24/7 Online Support</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="glass-card p-4">
+                        <form id="contactForm">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="service" class="form-label">Service Needed</label>
+                                <select class="form-select" id="service" required>
+                                    <option value="">Select a service</option>
+                                    <option value="multimedia">Multimedia Design</option>
+                                    <option value="cybersecurity">Cybersecurity Services</option>
+                                    <option value="development">Programming & Development</option>
+                                    <option value="hardware">Hardware Support</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Project Details</label>
+                                <textarea class="form-control" id="message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100 btn-lg">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center mb-4">
+                        <img src="assets/logo_1749789696115.png" alt="Continegra Logo" height="40" class="me-2">
+                        <span class="h4 fw-bold mb-0">Continegra</span>
+                    </div>
+                    <p class="text-white-50 mb-4">Professional IT and multimedia solutions empowering businesses across Africa with cutting-edge technology.</p>
+                </div>
+                
+                <div class="col-lg-2">
+                    <h5 class="mb-4">Services</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#services" class="text-white-50 text-decoration-none">Multimedia Design</a></li>
+                        <li class="mb-2"><a href="#services" class="text-white-50 text-decoration-none">Cybersecurity</a></li>
+                        <li class="mb-2"><a href="#services" class="text-white-50 text-decoration-none">Development</a></li>
+                        <li class="mb-2"><a href="#services" class="text-white-50 text-decoration-none">Hardware Support</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3">
+                    <h5 class="mb-4">Contact Info</h5>
+                    <p class="text-white-50 mb-2"><i class="fas fa-envelope me-2"></i>molisentshihlele@gmail.com</p>
+                    <p class="text-white-50 mb-2"><i class="fas fa-phone me-2"></i>+26650805067</p>
+                    <p class="text-white-50 mb-0"><i class="fas fa-clock me-2"></i>24/7 Online</p>
+                </div>
+                
+                <div class="col-lg-3">
+                    <h5 class="mb-4">Follow Us</h5>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-white-50 fs-4"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-white-50 fs-4"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white-50 fs-4"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-white-50 fs-4"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="my-4 border-secondary">
+            
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0 text-white-50">&copy; 2024 Continegra IT & Multimedia Business Africa. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0 text-white-50">Built with ❤️ for African businesses</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/26650805067" target="_blank" class="whatsapp-btn">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Chat Bot -->
+    <div class="chatbot-container">
+        <div class="chatbot-toggle" id="chatbotToggle">
+            <i class="fas fa-comments"></i>
+        </div>
+        <div class="chatbot-widget" id="chatbotWidget">
+            <div class="chatbot-header">
+                <h6 class="mb-0">AI Assistant</h6>
+                <button class="btn-close btn-close-white" id="chatbotClose"></button>
+            </div>
+            <div class="chatbot-messages" id="chatbotMessages">
+                <div class="message bot-message">
+                    <div class="message-content">
+                        <p>Hello! I'm here to help you with information about our IT and multimedia services. How can I assist you today?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" class="form-control" id="chatbotInput" placeholder="Type your message...">
+                <button class="btn btn-primary" id="chatbotSend">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>

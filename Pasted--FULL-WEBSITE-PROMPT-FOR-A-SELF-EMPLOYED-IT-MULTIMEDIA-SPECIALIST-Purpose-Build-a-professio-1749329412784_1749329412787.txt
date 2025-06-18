@@ -1,0 +1,191 @@
+✅ FULL WEBSITE PROMPT — FOR A SELF-EMPLOYED IT & MULTIMEDIA SPECIALIST
+🎯 Purpose:
+Build a professional business website for a self-employed IT and multimedia specialist. The website should advertise services in Multimedia Design, Cybersecurity, Software & App Development, and Computer Hardware Support. This is a client-facing service website (not a job portfolio). The person operates 24/7 and offers remote and in-person services.
+
+🔗 Contact Info (to be used across all pages)
+Email: molisentshihlele@gmail.com
+
+Phone: +26650805067
+
+WhatsApp Chat Link: https://wa.me/26650805067
+
+Operating Hours: 24/7 Online
+
+Add WhatsApp icon floating on all pages (bottom-right), linking to the WhatsApp chat link above.
+
+🏠 Homepage Content
+Hero Section:
+Title: Complete IT & Multimedia Solutions — Delivered by One Expert
+
+Subtitle: From creative media to secure systems and smart apps — I build, fix, protect, and create it all.
+
+Buttons:
+
+“Explore Services”
+
+“Request a Quote”
+
+“WhatsApp Now” (link to: https://wa.me/26650805067)
+
+Why Choose Me:
+✔ One-stop solution for Multimedia, Security, Development & Hardware
+
+✔ 24/7 online availability
+
+✔ Affordable rates, quality delivery
+
+✔ Remote & onsite service
+
+✔ Trusted by businesses, creators & individuals
+
+Quick Overview (Icons/Boxes)
+🎨 Multimedia Design
+
+🔐 Cybersecurity Services
+
+💻 Programming & Development
+
+🛠 Hardware Support
+
+🎨 Multimedia Services Page
+Headline: Bring Your Ideas to Life with Creative Multimedia Solutions
+
+Services Offered:
+
+Logo & Brand Design
+
+2D/3D Animations (Explainer videos, Ads, Intros)
+
+Video Editing (YouTube, Social Media, Promo)
+
+Voice Editing & Sound Cleanup
+
+Motion Graphics & Effects
+
+UI/UX Graphic Design
+
+Poster, Banner, Thumbnail Design
+
+Tools Used: Photoshop, After Effects, Premiere Pro, Blender, Canva
+
+🔐 Cybersecurity Services Page
+Headline: Protect Your Digital Assets — I Secure What Matters
+
+Services Offered:
+
+Malware Detection & Removal
+
+Penetration Testing (Web, Network, System)
+
+Ethical Hacking & Vulnerability Testing
+
+Network & Firewall Setup
+
+Cybersecurity Awareness Training
+
+System Hardening & Security Policy Setup
+
+Tools Used: Kali Linux, Wireshark, Burp Suite, Metasploit
+
+💻 Programming & Software Development Page
+Headline: Smart Applications, Websites & Systems Tailored for You
+
+Services Offered:
+
+Custom Website Development (business, portfolio, e-commerce)
+
+Android App Development
+
+Point of Sale (POS) System Development
+
+Web Apps with Dashboards
+
+API Integrations
+
+CMS Setup (WordPress, Joomla)
+
+Tech Stack: HTML, CSS, JavaScript, PHP, Python, Laravel, React
+
+Software Maintenance & Debugging
+
+🛠 Hardware Support Page
+Headline: Reliable PC, Laptop & Network Support Anytime You Need It
+
+Services Offered:
+
+Computer Repair & Troubleshooting
+
+Laptop Screen, RAM, SSD Upgrades
+
+Virus Removal & OS Reinstallation
+
+Printer & Device Setup
+
+Network Installation (LAN, WiFi)
+
+Driver & BIOS Setup
+
+Small Business IT Infrastructure Setup
+
+🖼 Portfolio Page
+Headline: See My Work in Action
+
+Instructions:
+
+Add visual cards with before/after thumbnails, video samples, and live website/app links (if available)
+
+Group by category (e.g. Design, Security, Development)
+
+💬 Testimonials Page (optional)
+Headline: What Clients Say
+
+Placeholder for 2–4 client reviews with:
+
+Client name
+
+Feedback
+
+Service provided
+
+📞 Contact Page
+Headline: Let’s Get Started — Contact Me 24/7
+
+Include:
+
+Contact Form:
+
+Name
+
+Email
+
+Subject
+
+Message
+
+Direct Contact Info:
+
+Email: molisentshihlele@gmail.com
+
+Phone: +26650805067
+
+WhatsApp Chat: Click to Chat
+
+Operating Hours:
+
+Available 24/7 — Online and Remote Services Ready
+
+🌐 Site-Wide Features
+✅ Mobile-Responsive Design
+
+✅ Sticky WhatsApp Chat Icon (link: https://wa.me/26650805067)
+
+✅ SEO-Optimized Pages
+
+✅ Light/Dark Mode Toggle
+
+✅ Smooth animations & clean UI
+
+✅ Footer with Contact Info, Social Media Icons (LinkedIn, GitHub, YouTube, Instagram if applicable)
+
+✅ Optional PDF brochure download or pricing guide
+
